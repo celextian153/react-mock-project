@@ -1,0 +1,82 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.whyBanner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 92px;
+}
+.why-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 575px;
+}
+h2,h3{
+    font-weight: 500;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 57px;
+    margin-bottom: 56px;
+}
+.why-card-info{
+    margin-bottom: 37px;
+}
+.why-card-info h3{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+img{
+    margin-right: 40px;
+}
+button{
+    width: 197px;
+    height: 62px;
+    text-transform: uppercase;
+}
+
+@media (max-width:1440px){
+    .whyBanner-bg{
+        width: 50%;
+        margin: 0;
+    }
+    .why-card{
+        width: 75%;
+    }
+    .card-container{
+        margin-left: 40px;
+    }
+}
+@media (max-width:768px){
+    .card-container{
+        align-items: center;
+        margin-left: 0;
+        
+    }
+    .whyBanner-container{
+        flex-direction: column;
+    }
+    .whyBanner-bg{
+        width: 100%;
+        height: 500px;
+    }
+    button{
+        width: 157px;
+        height: 52px;
+    }
+    h2{
+        font-size: 47px;
+        margin: 56px;
+    }
+
+}

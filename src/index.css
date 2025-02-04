@@ -33,13 +33,15 @@
   padding: 0;
 }
 body,html,button{
-  font-family: "Lato", serif;
-  overflow-x: hidden;
+  font-family: "Lato";
   scroll-behavior: smooth;
 }
 
 h1 {
   font-size: 120px;
+}
+h2 {
+  font-size: 60px;
 }
 h3 {
   font-size: 24px;

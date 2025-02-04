@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import style from "../../css/profAssoc.module.css";
 
 const ProfAssocCardComponent = ({ proAssoc }) => {
