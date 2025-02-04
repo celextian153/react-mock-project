@@ -1,4 +1,5 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -11,49 +12,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
+} */
+/* 
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -65,4 +25,49 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,html,button{
+  font-family: "Lato", serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 120px;
+}
+h3 {
+  font-size: 24px;
+}
+p {
+  font-size: 18px;
+}
+button {
+    padding: 20px 40px;
+    background-color: #184597;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+
+
+
+@media (max-width: 1279px){
+  button{
+    padding: 15px 30px;
+    font-size: 15px;
+  }
+  h1{
+    font-size: 90px;
+  }
+}
+@media (max-width:768px){
+  
 }
