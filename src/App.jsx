@@ -1,6 +1,7 @@
 import "./App.css";
 import BannerComponent from "./components/BannerComponent";
 import ProfessionalAssociationsComponent from "./components/ProfessionalAssociations/ProfessionalAssociationsComponent";
+import ServicesComponent from "./components/Services/ServicesComponent";
 import WhyBannerComponent from "./components/WhyChooseUsBanner/WhyBannerComponent";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 			<BannerComponent />
 			<ProfessionalAssociationsComponent />
 			<WhyBannerComponent />
+			<ServicesComponent />
 		</>
 	);
 }
