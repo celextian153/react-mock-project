@@ -34,7 +34,8 @@
 }
 body,html,button{
   font-family: "Lato";
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
+  
 }
 
 h1 {
@@ -48,6 +49,7 @@ h3 {
 }
 p {
   font-size: 18px;
+  color: #6c757d;
 }
 button {
     padding: 20px 40px;
@@ -59,7 +61,13 @@ button {
 }
 
 
-
+@media (max-width: 1440px){
+  .slick-slide{
+    display: flex !important;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+}
 
 @media (max-width: 1279px){
   button{
@@ -70,6 +78,6 @@ button {
     font-size: 90px;
   }
 }
-@media (max-width:768px){
+/* @media (max-width:768px){
   
-}
+} */
