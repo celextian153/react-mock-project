@@ -78,6 +78,8 @@ button {
     font-size: 90px;
   }
 }
-/* @media (max-width:768px){
-  
-} */
+@media (max-width:425px){
+  .slick-slide{
+    justify-content: flex-start;
+  }
+}

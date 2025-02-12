@@ -20,7 +20,7 @@ const ServicesComponent = () => {
 			text: "Brook’s unique approach to setting up a contract warehouse gives the customer the flexibility...",
 		},
 		{
-			img_url: "#",
+			img_url: "/src/assets/images/close-up-warehouse-view.png",
 			title: "Contract Warehousing",
 			text: "Brook’s unique approach to setting up a contract warehouse gives the customer the flexibility...",
 		},

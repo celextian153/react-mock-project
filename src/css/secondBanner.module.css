@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 454px;
+}
+.content-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url("/src/assets/images/Group382.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-container h2{
+    color: #ffffff;
+    text-align: center;
+    width: 65%;
+    margin: 100px 0 52px;
+}
+.text-container button{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 0;
+}
+@media (max-width:1440px){
+    .text-container h2{
+        font-size: 47px;
+        margin: 80px 0 32px;
+    }
+}
+@media (max-width:768px){
+    
+}
+@media (max-width:425px){
+    .text-container h2{
+        width: 80%;
+        margin: 50px 0 32px;
+    }
+}
